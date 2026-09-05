@@ -18,7 +18,7 @@
 2. **Architecture Mental Models**: Interactive visual diagrams for Hub-and-Spoke non-transitive peering, RBAC scope inheritance, Storage lifecycle tiering, NSG evaluation order, App Service slot swapping, and the **4-Way Load Balancing Decision Matrix** (Azure Front Door vs Traffic Manager vs Application Gateway vs Load Balancer).
 3. **High-Yield Exam Traps & Gotchas**: Detailed breakdowns of why candidates get tricked by Microsoft's scenario questions and the exact rules needed to answer correctly.
 4. **Scenario Practice Exam Engine**: Full scenario-based question bank with immediate feedback and trap alerts.
-5. **Readiness Tracker & Touch Checklist**: S-Pen and finger-friendly study checklist with `localStorage` persistence, optimized for tablets (like the Samsung Galaxy Tab S9 FE) and desktop tiling window managers (like Hyprland on Omarchy).
+5. **Readiness Tracker & Interactive Checklist**: Comprehensive study checklist with `localStorage` persistence to track your mastery across all skills measured.
 
 ---
 
@@ -44,23 +44,17 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/az104-mastery-hub.git
+git clone https://github.com/jeffer90/az104-mastery-hub.git
 cd az104-mastery-hub
 
 # Install dependencies
 npm install
 
-# Start development server (accessible over local network)
+# Start development server
 npm run dev
 ```
 
 Open your browser at `http://localhost:5173`.
-
-### Tablet & Remote Access (e.g. Samsung Galaxy Tab S9 FE)
-The dev server binds to `0.0.0.0`. On your tablet, connect to the same Wi-Fi network (or via Tailscale) and open:
-```
-http://<your-workstation-ip>:5173
-```
 
 ### Production Build
 

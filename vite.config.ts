@@ -10,7 +10,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    host: '0.0.0.0', // Allow access from local network / tablet
     port: 5173,
   },
 })

@@ -6,7 +6,7 @@ import {
   Circle, 
   Clock, 
   RotateCcw, 
-  Tablet
+  ListChecks
 } from 'lucide-react';
 
 interface Props {
@@ -114,11 +114,11 @@ export const ReadinessDashboard: React.FC<Props> = ({
         </div>
       </div>
 
-      {/* Tablet & S-Pen Optimized Fast Touch Checklist */}
+      {/* Interactive Study Checklist */}
       <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-6 space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Tablet className="w-5 h-5 text-sky-400" />
+            <ListChecks className="w-5 h-5 text-sky-400" />
             <h3 className="text-base font-bold text-white">Interactive Study Checklist</h3>
           </div>
           <span className="text-xs text-slate-400 hidden sm:inline">
